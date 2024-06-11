@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1500px;
+   
+   
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    margin: 150px 0 150px 140px; 
+    border:solid 2px black;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+header{
+    padding: auto;
+}
+header img{
+    background-color: rgb(224, 223, 78);
+    width: 100%;
+    padding: 10px 0;
+}
+#img4{
+    background-color: rgb(31, 58, 51);
+}
+main{
+    padding: 10px; ;
+}
+main p{
+    font-size: small;
+}
+main button{
+    border: 0;
+}
+button:hover{
+    color: orange;
+    background-color: #fff;
+}
+button:active{
+    color: yellow;
+    background-color: red;
+}
+main input{
+    margin: 0 3px 0 3px;
+    text-align: center;
+    width: 40px;
+    border: 0;
+}
+footer button{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
